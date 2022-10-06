@@ -1,0 +1,19 @@
+.headerContainer {
+  display: flex;
+  padding: 1rem 1rem 0 1.5rem;
+}
+.headerIconStyle {
+  font-size: 1.8rem;
+}
+.headerIconStyle:hover {
+  color: #fff;
+}
+.headerIconStyle:active {
+  color: #000;
+}
+@media screen and (min-width: 480px) {
+  .headerIconStyle {
+    cursor: pointer;
+    font-size: 2.3rem;
+  }
+}

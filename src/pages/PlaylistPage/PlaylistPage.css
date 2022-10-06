@@ -1,0 +1,137 @@
+.container {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: center;
+}
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  width: 40%;
+}
+
+.disc img {
+  width: 120px;
+  height: 120px;
+}
+.disc {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  align-items: center;
+  justify-content: center;
+}
+
+.disc-text {
+  width: 100%;
+  text-align: center;
+  padding: 3rem 0 1rem 0;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px #fff;
+}
+.player {
+  width: 80%;
+  height: 50vh;
+  background-color: #000;
+  margin: 0 auto;
+}
+.playerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.disc--active {
+  opacity: 1;
+  z-index: 1;
+}
+.disc--left {
+  transform: translateX(30%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.disc--right {
+  transform: translateX(-30%) scale(0.8);
+  transition: 500ms;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.hide {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .disc {
+    width: 160px;
+    height: 160px;
+  }
+
+  .disc img {
+    width: 160px;
+    height: 160px;
+  }
+
+  .player {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width: 724px) {
+  .disc {
+    width: 220px;
+    height: 220px;
+  }
+
+  .disc img {
+    width: 220px;
+    height: 220px;
+  }
+
+  .player {
+    width: 60%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .disc {
+    width: 300px;
+    height: 300px;
+  }
+
+  .disc img {
+    width: 300px;
+    height: 300px;
+  }
+
+  .disc-text {
+    font-size: 2rem;
+  }
+
+  .player {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .disc {
+    width: 400px;
+    height: 400px;
+  }
+
+  .disc img {
+    width: 400px;
+    height: 400px;
+  }
+}

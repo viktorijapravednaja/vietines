@@ -1,0 +1,46 @@
+.endSectionContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem;
+  text-align: center;
+}
+.scheduleContainer > h1 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  padding-top: 3rem;
+}
+.scheduleContainer > h5 {
+  font-size: 1rem;
+  padding-top: 8px;
+}
+
+@media screen and (min-width: 480px) {
+  .scheduleContainer > h5 {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .endSectionContainer {
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-evenly;
+    padding: 4.5rem;
+  }
+
+  .scheduleContainer > h1 {
+    padding-top: 0;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .scheduleContainer > h1 {
+    font-size: 2rem;
+  }
+  .scheduleContainer > h5 {
+    font-size: 1.5rem;
+  }
+}

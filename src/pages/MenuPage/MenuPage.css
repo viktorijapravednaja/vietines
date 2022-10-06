@@ -1,0 +1,86 @@
+.imgContainer {
+  width: 80%;
+  margin: 2rem auto 2rem auto;
+  display: flex;
+}
+
+.flex {
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.txtWithShadow {
+  font-weight: 800;
+  font-size: 2rem;
+  text-shadow: 2px 2px #fff;
+  margin: 2rem 0 2rem 0;
+}
+
+.boldTxt {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.descriptionTxt {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto 3rem auto;
+}
+
+.center {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.rotateImg {
+  transform: rotateY(180deg);
+  margin: 2rem 1.5rem 2rem auto;
+}
+.showImg {
+  display: none;
+}
+
+@media screen and (min-width: 480px) {
+  .descriptionTxt {
+    width: 40%;
+  }
+  .imgContainer {
+    width: 60%;
+  }
+}
+
+.hideTxt {
+  display: inline-block;
+}
+@media screen and (min-width: 724px) {
+  .descriptionTxt {
+    width: 50%;
+  }
+  .imgContainer {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1026px) {
+  .imgContainer {
+    padding-top: 1rem;
+    width: 500px;
+  }
+
+  .hideTxt {
+    display: none;
+  }
+  .flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 2rem;
+  }
+  .descriptionTxt {
+    width: 90%;
+  }
+  .showImg {
+    display: inline-block;
+  }
+}
