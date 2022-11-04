@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 //Style
 import "./PlaylistPage.css";
@@ -127,7 +128,9 @@ const PlaylistPage = () => {
   return (
     <>
       <Header />
-      <Title style={"titleStyle"} />
+      <Link to="/">
+        <Title style={"titleStyle"} />
+      </Link>
       <div className="container">
         <div className="carousel">
           <motion.div

@@ -25,20 +25,20 @@ const MenuPage = () => {
         <div>
           <h2 className="txtWithShadow">MEAT OPTIONS</h2>
           <div>
-            <h5 className="boldTxt">PHO &nbsp; 11.1&euro; </h5>
+            <h5 className="boldTxt">PHO &nbsp; 11.00&euro; </h5>
             <p className="descriptionTxt">
               beef soup with meatballs and rice noodles
             </p>
           </div>
           <div>
-            <h5 className="boldTxt">BUN NEM &nbsp; 11.1&euro;</h5>
+            <h5 className="boldTxt">BUN NEM &nbsp; 11.00&euro;</h5>
             <p className="descriptionTxt">
               rice noodle salad with pickled carrots and radishes, cucumber,
               beef, pork spring roll and herbs
             </p>
           </div>
           <div>
-            <h5 className="boldTxt">NEM RAN &nbsp; 11.1&euro; </h5>
+            <h5 className="boldTxt">NEM RAN &nbsp; 8.50&euro; </h5>
             <p className="descriptionTxt">
               pork springrolls with vegetables and noodles
             </p>
@@ -46,7 +46,12 @@ const MenuPage = () => {
         </div>
         <a href="https://www.instagram.com/funnynohoney/" target="_blank">
           <div>
-            <img className="imgContainer showImg " src={Dragons} alt="menu" />
+            <img
+              className="imgContainer showImg "
+              src={Dragons}
+              alt="menu"
+              loading="lazy"
+            />
           </div>
 
           <div>
@@ -56,21 +61,21 @@ const MenuPage = () => {
         <div>
           <h2 className="txtWithShadow">VEGAN OPTIONS</h2>
           <div>
-            <h5 className="boldTxt">BUN RIEU &nbsp; 11.1&euro; </h5>
+            <h5 className="boldTxt">BUN RIEU &nbsp; 11.00&euro; </h5>
             <p className="descriptionTxt">
               tomato based rice noodle soup with mushrooms and tofu
             </p>
           </div>
 
           <div>
-            <h5 className="boldTxt">BUN CHAY &nbsp; 11.1&euro;</h5>
+            <h5 className="boldTxt">BUN CHAY &nbsp; 11.00&euro;</h5>
             <p className="descriptionTxt">
               rice noodle salad with pickled carrots and radishes, cucumber,
               tofu, vegan spring roll and herbs
             </p>
           </div>
           <div>
-            <h5 className="boldTxt">NEM CHAY &nbsp; 11.1&euro; </h5>
+            <h5 className="boldTxt">NEM CHAY &nbsp; 8.50&euro; </h5>
             <p className="descriptionTxt">
               vegan springrolls with peanuts and vegetables
             </p>
@@ -92,12 +97,12 @@ const MenuPage = () => {
       <div className="center">
         <h2 className="txtWithShadow">FISH OPTIONS</h2>
         <div>
-          <h5 className="boldTxt">GOI CUON &nbsp; 11.1&euro; </h5>
+          <h5 className="boldTxt">GOI CUON &nbsp; 10.00&euro; </h5>
           <p className="descriptionTxt">summer rolls with shrimps</p>
         </div>
 
         <div>
-          <h5 className="boldTxt">GOI XOAI TOM &nbsp; 11.1&euro;</h5>
+          <h5 className="boldTxt">GOI XOAI TOM &nbsp; 12.00&euro;</h5>
           <p className="descriptionTxt">
             spicy mango salad with caramelised shrimps and shrimp chips
           </p>

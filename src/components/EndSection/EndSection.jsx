@@ -26,11 +26,11 @@ const EndSection = () => {
       </ul>
       <div className="scheduleContainer">
         <h1>WORKING HOURS</h1>
-        <h5>III-11:30-3PM/ 5PM-10PM</h5>
-        <h5>IV-11:30-3PM/ 5PM-10PM</h5>
-        <h5>V-11:30-3PM/5PM-11AM</h5>
-        <h5>VI-12AM-11PM</h5>
-        <h5>VII-12AM-9PM</h5>
+        <h5>III-11:30-4PM/ 5PM-10PM</h5>
+        <h5>IV-11:30-4PM/ 5PM-10PM</h5>
+        <h5>V-11:30-4PM/5PM-11AM</h5>
+        <h5>VI-12PM-11PM</h5>
+        <h5>VII-12PM-9PM</h5>
       </div>
     </section>
   );
